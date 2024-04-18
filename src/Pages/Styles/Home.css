@@ -1,0 +1,102 @@
+.banner-box
+{
+    margin: 0;
+    margin-top: 0;
+    max-width: 100%;
+    width: 100vw;
+    height: auto;
+    background-color: rgb(223, 121, 26);
+    display: flex;
+    justify-content: center;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    gap:2em;
+    background-color: darkslategrey;
+    padding-top: 2em;
+    padding-bottom: 1em;
+    width: 70vw;
+}
+
+h2
+{
+    margin: 0;
+    font-size: 3em;
+    color: white;
+}
+
+.game-title
+{
+    font-size: 2em;
+    opacity: 1;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 1em;
+}
+
+button
+{
+    height: fit-content;
+    align-self: center;
+}
+
+.title
+{
+    justify-self: center;
+}
+
+.game-info
+{
+    width: 50vw;
+    height: 40vh;
+    align-self: center;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-info-bg
+{
+    background-color: black;
+    opacity: 0.5;
+    width: inherit;
+    height: inherit;
+    z-index: 1;
+    position: absolute;
+}
+
+.game-title
+{
+    margin-top: 1rem;
+    z-index: 2;
+}
+
+.game-info-text
+{
+    z-index: 2;
+    display: grid;
+    color: white;
+    grid-template-columns: 10vw auto;
+    width: 40 vw;
+    align-self: start;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+
+.info-title
+{
+    font-size: 1.25rem;
+    
+}
+
+.info-content
+{
+    font-size: 1.15rem;
+}

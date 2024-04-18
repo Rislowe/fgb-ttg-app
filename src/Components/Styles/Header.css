@@ -1,0 +1,33 @@
+.header-box
+{
+    max-width: 100%;
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    color: white;
+    background-color: rgb(101, 30, 101);
+    margin: 0;
+    padding: 0;
+}
+
+.title
+{
+    align-self: center;
+    flex: 1;
+}
+
+.nav
+{
+    align-self: flex-end;
+    justify-self: flex-end;
+}
+
+button
+{
+    margin: 1em 1em;
+}
+
+h1
+{
+    margin-left: 1em;
+}
